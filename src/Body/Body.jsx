@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Card from "react-bootstrap/Card";
 import Spinner from "react-bootstrap/Spinner";
-// import "./Body.css"; // Import your CSS file
+
 
 const Body = () => {
   const [episodes, setEpisodes] = useState([]);
